@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 h1{
     color: rgb(52, 66, 29);
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -18,6 +20,11 @@ p{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+figure.imagem-principal{
+    border: 8px solid green;
+}
+
 figure.imagem-principal img{
-    border-radius: 50 px;
+    width: 100%;
+    height: 100%;
 }
