@@ -17,3 +17,7 @@ li{
 p{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
+figure.imagem-principal img{
+    border-radius: 50 px;
+}
