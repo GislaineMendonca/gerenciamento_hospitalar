@@ -20,11 +20,17 @@ p{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-figure.imagem-principal{
-    border: 8px solid green;
-}
-
 figure.imagem-principal img{
     width: 100%;
     height: 100%;
+}
+
+header#cabecalho h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+header#cabecalho figure.imagem-principal{
+    border: 8px solid green;
 }
