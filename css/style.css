@@ -36,3 +36,14 @@ header#cabecalho h1{
     background-color: #457b9d;
     color: #f1faee;
 }
+
+table {
+    border-collapse: collapse;
+    background: #457b9d;
+    color: #f1faee;
+    
+}
+th, td { 
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
