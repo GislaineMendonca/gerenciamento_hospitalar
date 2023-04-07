@@ -6,9 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Gislaine Santos Mendonça">
     <meta name="description" content="Projeto individual"> 
-    <title>Hospital Garden Health - Portal Saúde</title>
+    <title>Clínica Garden Health</title>
 
-    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="stylesheet" type="text/css" href="../css/estilo-header-footer.css">
+    <link rel="stylesheet" type="text/css" href="../css/estilo-main.css">
 
     <link rel="shortcut icon" href="../imagem/icon.jpeg" type="image/jpeg">
 
@@ -17,40 +18,46 @@
 
     <div id=interface class="">
         <header id="cabecalho">
-            <h1> Seja bem vindo ao Portal Saúde Garden Health</h1>
 
-            <figure class="imagem-principal">
-                    <img src="../imagem/g.png" alt="Médico com paciente">
-            </figure>
+            <nav id="menu">
+                <figure class="logo">
+                    <a href="../inicio.html">
+                        <img src="../imagem/logo.png" alt="Logo da clínica">
+                    </a>
+                </figure>
+
+                <ul>
+                    <li> <a href="../login.html" hreflang="pt-br">Acesse sua conta</a> </li>
+                    <li> <a href="../agenda.html">Agenda</a></li>
+                    <li> <a href="../especialidades.html" hreflang="pt-br">Especialidades</a> </li>
+                    <li> <a href="../unidades.html">Unidades</a></li>
+                    <li> <a href="../saiba_mais.html" hreflang="pt-br">Saiba mais</a> </li>
+                </ul> 
+
+            </nav>
         </header>
-    </div>
-    
-    
-    
-    <p> Nosso objetivo é fornecer um atendimento de qualidade aos pacientes, 
-        com cuidado e carinho, e isso começa desde o primeiro contato. 
-     </p>
 
-    <h2> Agradecemos a confiança e esperamos poder ajudá-lo em sua jornada de cuidados com a saúde. </h2>
-    
-    <p> Aqui você encontrará informações sobre nossos serviços, equipe médica, instalações e procedimentos. 
-        Além disso, estamos sempre buscando formas de inovar e melhorar nossos serviços, 
-        para garantir que nossos pacientes recebam a melhor assistência possível. 
-        Sinta-se à vontade para explorar nosso site e conhecer mais sobre o nosso hospital e tudo o que temos a oferecer.
-    </p>
+        <hr>
 
-    <audio preload="metadata" controls>
-        <source src="../audio/TimTaj - Serious Business.mp3" type="audio/mp3">
-        <p>Seu navegador não suporta o audio <a href="../audio/TimTaj - Serious Business.mp3"
-            download="../audio/TimTaj - Serious Business.mp3"></a></p>
-    </audio>
+        <main>
+            <p>Este é o conteúdo principal da minha página.</p>
 
-    <ul>
-        <li> Acesse sua conta </li>
-        <li> Exames </li>
-        <li> <a href="agendamento.html" hreflang="pt-br">Agendamento</a> </li>
-        <li> <a href="especialidades.html" hreflang="pt-br">Especialidades</a> </li>
-        <li> <a href="saiba_mais.html" hreflang="pt-br">Saiba mais</a> </li>
-    </ul>    
+            <div class="audio-container">
+                <audio preload="metadata" controls>
+                    <source src="../audio/TimTaj - Serious Business.mp3" type="audio/mp3">
+                    <p>Seu navegador não suporta o audio <a href="./audio/TimTaj - Serious Business.mp3"
+                        download="../audio/TimTaj - Serious Business.mp3"></a></p>
+                </audio>
+              </div>
+          </main>
+
+          <footer>
+            <div class="footer-content">
+                <p>&copy; 2023 Clínica Garden Health. Todos os direitos reservados.</p>
+            </div>
+            
+          </footer>
+
+    </div>  
 </body>
 </html>
