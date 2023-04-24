@@ -1,2 +1,2 @@
-# Sistema para gerenciamento hospitalar
+# Sistema de gerenciamento hospitalar
 Projeto individual da disciplina de web
