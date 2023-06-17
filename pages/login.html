@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Gislaine Santos Mendonça">
+    <meta name="description" content="Projeto individual"> 
+    <title>Clínica Garden Health</title>
+
+    <link rel="stylesheet" type="text/css" href="../css/estilo-header-footer.css">
+    <link rel="stylesheet" type="text/css" href="../css/estilo-main.css">
+
+    <link rel="shortcut icon" href="../imagem/icon.jpeg" type="image/jpeg">
+
+    
+    <style>
+        body {
+            background-image: url('../imagem/medico.jpg');
+            margin: 0;
+            padding: 0;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+    </style>
+
+</head>
+<body>
+
+    <div id=interface class="">
+        <header id="cabecalho">
+
+            <nav id="menu">
+                <figure class="logo">
+                    <a href="../inicio.html">
+                        <img src="../imagem/logo.png" alt="Logo da clínica">
+                    </a>
+                </figure>
+
+                <ul>
+                    <li> <a href="login.html" hreflang="pt-br">Acesse sua conta</a> </li>
+                    <li> <a href="agenda.html">Agenda</a></li>
+                    <li> <a href="especialidades.html" hreflang="pt-br">Especialidades</a> </li>
+                    <li> <a href="unidades.html">Unidades</a></li>
+                    <li> <a href="saiba-mais.html" hreflang="pt-br">Saiba mais</a> </li>
+                </ul> 
+
+            </nav>
+        </header>
+
+        <hr>
+
+        <main>
+            
+            <div class="login">
+                <form>
+                    <h2>Acesse sua conta</h2>
+                  <label for="email">E-mail:</label>
+                  <input type="email" id="email" name="email" required>
+                  <label for="senha">Senha:</label>
+                  <input type="password" id="senha" name="senha" required>
+                  <label for="tipo_conta">Tipo de Conta:</label>
+                  <select id="tipo_conta" name="tipo_conta">
+                    <option value="paciente">Paciente</option>
+                    <option value="medico">Médico</option>
+                    <option value="filial">Filial</option>
+                    <option value="administrador">Administrador</option>
+                  </select>
+
+                  <div class="links">
+                    <ul>
+                        <li><a href="#">Esqueci minha senha</a></li>
+                        <li><a href="#">Criar nova senha</a></li>
+                    </ul>
+                  </div>
+
+                  <button type="submit">Entrar</button>
+                </form>
+              </div>
+
+          </main>
+
+          <footer>
+            <div class="footer-content">
+                <p>&copy; 2023 Clínica Garden Health. Todos os direitos reservados.</p>
+            </div>
+            
+          </footer>
+
+    </div>  
+</body>
+</html>
