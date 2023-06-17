@@ -30,6 +30,7 @@ p {
     padding: 20px;
     border: 5px solid #d9d9d9;
     border-radius: 5px;
+    background-color: white ;
   }
   
   form {
@@ -93,7 +94,7 @@ p {
 
   table {
     border-collapse: collapse;
-    width: 100%;
+    width: 30%;
     margin: 0 auto;
   }
   td, th {
@@ -109,3 +110,46 @@ p {
   .agenda{
     text-align: center;
   }
+  
+  /*carrossel de imagens*/
+
+  .carousel {
+    position: relative;
+    width: 80%;
+    height: 250px;
+    overflow: hidden;
+    margin: 0 auto;
+  }
+  
+  .carousel-inner {
+    display: flex;
+    width: 300%;
+    height: 100%;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .carousel-inner img {
+    width: 33.33%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .carousel-prev,
+  .carousel-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #284b63;
+    font-size: 2em;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .carousel-prev {
+    left: 10px;
+  }
+  
+  .carousel-next {
+    right: 10px;
+  }
+  
