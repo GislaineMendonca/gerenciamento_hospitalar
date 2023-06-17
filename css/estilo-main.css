@@ -116,7 +116,8 @@ p {
   .carousel {
     position: relative;
     width: 80%;
-    height: 250px;
+    max-width: 100%;
+    height: auto;
     overflow: hidden;
     margin: 0 auto;
   }
@@ -152,4 +153,5 @@ p {
   .carousel-next {
     right: 10px;
   }
+  
   
