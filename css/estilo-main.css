@@ -111,47 +111,6 @@ p {
     text-align: center;
   }
   
-  /*carrossel de imagens*/
-
-  .carousel {
-    position: relative;
-    width: 80%;
-    max-width: 100%;
-    height: auto;
-    overflow: hidden;
-    margin: 0 auto;
-  }
   
-  .carousel-inner {
-    display: flex;
-    width: 300%;
-    height: 100%;
-    transition: transform 0.3s ease-in-out;
-  }
-  
-  .carousel-inner img {
-    width: 33.33%;
-    height: 100%;
-    object-fit: cover;
-  }
-  
-  .carousel-prev,
-  .carousel-next {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    color: #284b63;
-    font-size: 2em;
-    padding: 10px;
-    cursor: pointer;
-  }
-  
-  .carousel-prev {
-    left: 10px;
-  }
-  
-  .carousel-next {
-    right: 10px;
-  }
   
   
