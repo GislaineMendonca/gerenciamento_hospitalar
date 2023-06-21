@@ -34,7 +34,7 @@
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  color: #284b63;
+  color: gray;
   font-size: 2em;
   padding: 10px;
   cursor: pointer;
