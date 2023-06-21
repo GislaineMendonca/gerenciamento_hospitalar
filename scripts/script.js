@@ -1,3 +1,4 @@
+/* script responsável pela animação do carrossel*/
 const carousel = document.querySelector('.carousel');
 const carouselInner = document.querySelector('.carousel-inner');
 const prevBtn = document.querySelector('.carousel-prev');

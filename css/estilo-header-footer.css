@@ -1,5 +1,6 @@
 @charset "UTF-8";
 
+/*estilo do menu do header */
 #menu {
     display: flex;
     align-items: center;
@@ -48,6 +49,7 @@ body {
     padding-bottom: 60px;
 }
 
+/*estilo do footer */
 footer {
     display: block;
     background-color: #284b63;
